@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Selected Value</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="container">
+            <form class="w-25 m-auto pt-5">
+                <label class="mb-3" for="framework">Framework:</label>
+                <input class="form-control mb-3" type="text" id="framework" placeholder="Enter a framework" autocomplete="off">
+
+                <button class="btn btn-primary mb-3" id="btnAdd">Add</button><br>
+
+                <label class="mb-3" for="list">Framework List:</label><br>
+                <select class="form-control "  id="list" name="list" multiple>
+
+                </select><br>
+                <button class="btn btn-primary" id="btnRemove">Remove Selected Framework</button>
+            </form>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+    </html>

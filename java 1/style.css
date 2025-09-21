@@ -1,0 +1,18 @@
+
+
+.btn-success{
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: auto;
+    display: flex;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-success:hover{
+    background-color: #262626;
+}

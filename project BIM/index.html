@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="main" class="w-25 m-auto pt-5" >
+        <H1>BMI Calculator</H1>
+        <form action="" id="form">
+             <div class="mb-3">
+            <label  class="form-label">Height</label>
+            <input type="number" class="form-control" id="height" placeholder="In Cm">            
+    </div>
+    <div class="mb-3">
+        <label  class="form-label">Weight</label>
+        <input type="number" class="form-control" id="weight" placeholder="In KG">
+    </div>
+    <button id="buttom" class="btn btn-primary mb-5">Calculate</button>
+    </form>
+
+    <div class="result">
+        <h4>Your BMI Score</h4>
+        <h2 id="score">50.02</h2>
+    </div>
+    <div class="info">
+        <h4>BMI Weight Guide</h4>
+        <p id="Under">Under Weight = Less than 18.6</p>
+        <p id="Normal">Normal Range = 18.6 and 24.9</p>
+        <p id="Over">Over Weight = Greater than 24.9</p>
+    </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

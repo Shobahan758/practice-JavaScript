@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu ul{
+    text-align: center;
+    padding-top: 70px;
+}
+
+#menu li{
+   display: inline-block;
+   border: 2px solid #ddd;
+   width: 300px;
+   height: 300px;
+   box-shadow: 0px 0px 10px #ddd;
+   border-radius: 20px;
+   gap: 20px;
+   cursor: pointer;
+   
+}
+
+#menu li.red{
+    background: red;
+}
+
+#menu li.green{
+    background: green;
+}
+#menu li.blue{
+    background: blue;
+}
+#menu li.pink{
+    background: pink;
+}

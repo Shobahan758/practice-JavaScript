@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.area{
+    background: #02103574;
+     text-align: center;
+     padding:50px;
+     border-radius: 20px;
+     color: #0a2125;
+}
+.area i{
+    font-size: 30px;
+    color: #fff;
+}
+.area p{
+    font-size: 25px;
+     color: #fff;
+}
+.area h5{
+    font-size: 25px;
+     color: #fff;
+}

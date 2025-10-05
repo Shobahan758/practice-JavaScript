@@ -1,0 +1,33 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slider{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.controls{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+button{
+    cursor: pointer;
+}
